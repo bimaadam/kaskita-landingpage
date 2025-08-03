@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KasKita - Sistem Cashflow untuk UMKM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <div class="logo-icon">💰</div>
+            <h2>KasKita</h2>
+          </div>
+          <button class="btn-login">Login</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Kelola Keuangan Event Organizer Anda dengan Mudah</h1>
+            <p>
+              Sistem cashflow terpercaya untuk mencatat event, booking,
+              pemasukan, dan pengeluaran. Khusus dirancang untuk Event Organizer
+              dan Wedding Organizer agar bisnis lebih terorganisir.
+            </p>
+            <button class="btn-cta" onclick="openWhatsApp()">
+              Konsultasi Gratis via WhatsApp
+            </button>
+          </div>
+          <div class="hero-image">
+            <img src="assets/img/hero.png" alt="Event Management Dashboard" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dashboard Showcase Section -->
+    <section class="dashboard-showcase">
+      <div class="container">
+        <h2>Lihat Dashboard KasKita untuk Event Organizer</h2>
+        <p>
+          Dashboard khusus untuk mengelola event, booking, pemasukan, dan
+          pengeluaran
+        </p>
+
+        <div class="dashboard-preview">
+          <img
+            src="assets/img/preview.png"
+            alt="Dashboard KasKita - Event Management"
+            class="dashboard-image"
+          />
+
+          <div class="dashboard-features">
+            <div class="feature-highlight">
+              <div class="highlight-icon">📅</div>
+              <div class="highlight-content">
+                <h4>Manajemen Event</h4>
+                <p>
+                  Kelola jadwal wedding, ulang tahun, corporate event dalam satu
+                  tempat
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-highlight">
+              <div class="highlight-icon">📋</div>
+              <div class="highlight-content">
+                <h4>Booking Management</h4>
+                <p>
+                  Track status booking, DP, pelunasan, dan reminder otomatis
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-highlight">
+              <div class="highlight-icon">💰</div>
+              <div class="highlight-content">
+                <h4>Pencatatan Keuangan</h4>
+                <p>
+                  Catat pemasukan dari klien dan pengeluaran vendor/supplier
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-highlight">
+              <div class="highlight-icon">📊</div>
+              <div class="highlight-content">
+                <h4>Laporan Profit</h4>
+                <p>Analisis keuntungan per event dan performa bisnis bulanan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-cta">
+          <button class="btn-cta" onclick="openWhatsApp()">
+            Lihat Demo Dashboard Lengkap
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <h2>Fitur Unggulan untuk Event Organizer</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <!-- <div class="feature-icon">
+              <img
+                src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=80&h=80&fit=crop&crop=center"
+                alt="Manajemen Event"
+              />
+            </div> -->
+            <h3>Manajemen Event</h3>
+            <p>
+              Kelola semua event dan booking dengan mudah. Pantau jadwal, detail
+              acara, dan status pembayaran klien dalam satu dashboard.
+            </p>
+          </div>
+          <div class="feature-card">
+            <!-- <div class="feature-icon">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=80&h=80&fit=crop&crop=center"
+                alt="Pencatatan Keuangan"
+              />
+            </div> -->
+            <h3>Pencatatan Keuangan</h3>
+            <p>
+              Catat pemasukan dari klien dan pengeluaran operasional. Laporan
+              otomatis untuk analisis profit setiap event.
+            </p>
+          </div>
+          <div class="feature-card">
+            <!-- <div class="feature-icon">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=80&h=80&fit=crop&crop=center"
+                alt="Laporan Bisnis"
+              />
+            </div> -->
+            <h3>Laporan Bisnis</h3>
+            <p>
+              Dapatkan insight mendalam tentang performa bisnis EO Anda.
+              Analisis profit per event dan tren booking bulanan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Harga Section -->
+    <section class="pricing">
+      <div class="container">
+        <h2>Paket Berlangganan</h2>
+        <div class="pricing-card">
+          <div class="price-header">
+            <h3>Paket Event Organizer</h3>
+            <div class="price">
+              <span class="currency">Rp</span>
+              <span class="amount">150.000</span>
+              <span class="period">/bulan</span>
+            </div>
+          </div>
+          <ul class="features-list">
+            <li>✓ Manajemen event & booking unlimited</li>
+            <li>✓ Pencatatan pemasukan & pengeluaran</li>
+            <li>✓ Laporan profit per event</li>
+            <li>✓ Dashboard real-time</li>
+            <li>✓ Backup data cloud</li>
+            <li>✓ Support via WhatsApp</li>
+          </ul>
+          <button class="btn-cta" onclick="openWhatsApp()">
+            Mulai Berlangganan
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>Kata Mereka tentang KasKita</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "KasKita sangat membantu dalam mengelola keuangan wedding
+                organizer saya. Sekarang saya bisa track semua booking dan
+                keuntungan per event dengan mudah."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+                alt="Bu Sarah"
+              />
+              <div>
+                <h4>Bu Sarah</h4>
+                <span>Wedding Organizer "Dream Wedding"</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "Dulu ribet banget ngitung profit per event. Dengan KasKita,
+                semua laporan otomatis dan detail. Bisnis EO jadi lebih
+                profesional!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+                alt="Pak Andi"
+              />
+              <div>
+                <h4>Pak Andi</h4>
+                <span>Event Organizer "Festive Events"</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Terakhir -->
+    <section class="final-cta">
+      <div class="container">
+        <h2>Siap Mengelola Bisnis Event Organizer dengan Lebih Profesional?</h2>
+        <p>
+          Bergabunglah dengan puluhan Event Organizer yang sudah merasakan
+          kemudahan KasKita
+        </p>
+        <button class="btn-cta" onclick="openWhatsApp()">
+          Hubungi Kami Sekarang
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 bimafreelance.site. Semua hak cipta dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

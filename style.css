@@ -508,6 +508,13 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
   .hero-content {
     grid-template-columns: 1fr;
     gap: 2rem;
